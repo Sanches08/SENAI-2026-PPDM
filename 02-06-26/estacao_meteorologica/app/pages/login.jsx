@@ -37,11 +37,18 @@ export default function Login({ navigation }) {
             > 
                 <Text style={styles.textoBotaoLogin}>Entrar</Text>
             </TouchableOpacity>
+            <TouchableOpacity 
+                style={styles.botaoLogin} 
+                onPress={() => navigation.replace('Cadastro')}
+            > 
+                <Text style={styles.textoBotaoLogin}>Cadastro</Text>
+            </TouchableOpacity>
             
             <TouchableOpacity 
                 style={styles.botaoCadastrar} 
                 onPress={() => navigation.navigate('Registro')}
             > 
+            
                 <Text style={styles.textoBotaoCadastrar}>
                     Não tem uma conta? <Text style={styles.linkNegrito}>Cadastre-se</Text>
                 </Text>

@@ -5,6 +5,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 //import das telas
 import Login from '../pages/login';
 import Registro from '../pages/registro';
+import Cadastro from '../pages/cadastro';
 
 
 //import dos navegadores
@@ -48,6 +49,7 @@ export default function Rotas() {
         <Stack.Navigator>
             <Stack.Screen name='Login' component={Login} options={{ headerShown: false }} />
             <Stack.Screen name='Registro' component={Registro} options={{ title: 'Cadastro de usuário' }} />
+            <Stack.Screen name='Cadastro' component={Cadastro} options={{ title: 'Cadastro de usuário' }} />
             {/* <Stack.Screen name='Principal' component={MenuSuperior} options={{ headerShown: false , title: ''}} /> */}
         </Stack.Navigator>
     )
