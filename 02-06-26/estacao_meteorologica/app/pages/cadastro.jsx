@@ -42,7 +42,7 @@ export default function Cadastro({ navigation }) {
     );
 }
 
-// 🎨 Identidade visual rosa perfeitamente integrada
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
